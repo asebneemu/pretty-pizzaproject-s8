@@ -1,0 +1,28 @@
+header {
+    background-color: #CE2829; 
+    /* renk belirlendi, */
+    height: 207;
+    color: white;
+    padding: 50px;
+    position: relative;
+}
+header img {
+    margin-bottom: 20px;
+}
+header div {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 35px;
+    gap: 20px;
+}
+header div a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+header div a:hover {
+    color: white;
+    font-weight: bolder;
+}
